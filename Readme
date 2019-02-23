@@ -1,0 +1,7 @@
+- Install Keycloak using `helm install stable/keycloak --name keycloak --values values.yaml`
+
+- Create a new Realm, client and Identity provider
+
+- Add the sidecar container as in prom-deploy.yaml
+
+You should now have an auth later before the app
